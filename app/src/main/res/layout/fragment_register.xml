@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context="com.example.rndroid.minorproject2_database.RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seventy_dp">
+        <TextView
+            android:layout_weight=".5"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:paddingEnd="@dimen/thirtyDP"
+            android:paddingRight="@dimen/one_dp"
+            android:padding="@dimen/ten_dp"
+            android:layout_weight="1.8"
+            android:src="@drawable/register_header_logo"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginRight="@dimen/one_dp"
+                android:layout_marginEnd="@dimen/one_dp"
+                android:layout_marginBottom="@dimen/ten_dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp">
+                <TextView
+                    android:layout_weight=".2"
+                    android:gravity="center|start"
+                    android:text="@string/e_no"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/eitheenSP"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    android:layout_weight=".7"
+                    android:background="@drawable/edittext_shape_row"
+                    android:id="@+id/edittextEmpNumber_registerfrag"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/one_dp"
+                android:layout_marginEnd="@dimen/one_dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp">
+                <TextView
+                    android:layout_weight=".2"
+                    android:gravity="center|start"
+                    android:text="@string/e_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/eitheenSP"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:textColor="@color/black"
+                    android:layout_weight=".7"
+                    android:background="@drawable/edittext_shape_row"
+                    android:id="@+id/edittextEmpName_registerfrag"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/one_dp"
+                android:layout_marginEnd="@dimen/one_dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp">
+                <TextView
+                    android:layout_weight=".2"
+                    android:gravity="center|start"
+                    android:text="@string/EmailID"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/eitheenSP"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:layout_weight=".7"
+                    android:background="@drawable/edittext_shape_row"
+                    android:id="@+id/edittextEmail_registerfrag"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/one_dp"
+                android:layout_marginEnd="@dimen/one_dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp">
+                <TextView
+                    android:layout_weight=".2"
+                    android:gravity="center|start"
+                    android:text="@string/p_word"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/eitheenSP"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:layout_weight=".7"
+                    android:background="@drawable/edittext_shape_row"
+                    android:id="@+id/edittextpassword_registerfrag"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/one_dp"
+                android:layout_marginEnd="@dimen/one_dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp">
+                <TextView
+                    android:layout_weight=".2"
+                    android:gravity="center|start"
+                    android:text="@string/confirm"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/eitheenSP"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:layout_weight=".7"
+                    android:background="@drawable/edittext_shape_row"
+                    android:id="@+id/edittextconfirm_pass_registerfrag"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="@dimen/one_dp"
+                android:layout_marginEnd="@dimen/one_dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp">
+                <TextView
+                    android:layout_weight=".2"
+                    android:gravity="center|start"
+                    android:text="@string/pw_hint"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/eitheenSP"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:textColor="@color/black"
+                    android:layout_weight=".7"
+                    android:background="@drawable/edittext_shape_row"
+                    android:id="@+id/edittextpassword_hint_registerfrag"
+                    android:layout_width="@dimen/zeroDP"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/twenty_dp"
+                android:layout_marginBottom="@dimen/twenty_dp"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/one_dp"
+                android:layout_marginEnd="@dimen/one_dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp">
+                <Button
+                    android:layout_marginLeft="@dimen/twentyfife_dp"
+                    android:layout_marginRight="@dimen/twentyfife_dp"
+                    android:textAllCaps="false"
+                    android:text="@string/register"
+                    android:background="@color/button"
+                    android:id="@+id/buttonRegister_registerfrag"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginLeft="@dimen/thirtyfive_dp"
+                    android:layout_marginStart="@dimen/one_dp"
+                    android:textAllCaps="false"
+                    android:text="@string/login"
+                    android:textColor="@color/black"
+                    android:background="@color/button"
+                    android:id="@+id/buttonLogin_registerfrag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.rndroid.minorproject2_database.SearchDialogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/eitheenSP"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:text="@string/student_no" />
+        <TextView
+            android:layout_weight="2.1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:id="@+id/textview_studentNo_searchDialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/eitheenSP"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:text="@string/Name" />
+        <TextView
+            android:layout_weight="2.1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp"
+            android:id="@+id/textview_studentName_searchDialog"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/eitheenSP"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:text="@string/Mobile" />
+        <TextView
+            android:layout_weight="2.1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp"
+            android:id="@+id/textview_studentMobile_searchDialog"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/eitheenSP"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:text="@string/EmailID" />
+        <TextView
+            android:layout_weight="2.1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp"
+            android:id="@+id/textview_studentEmail_searchDialog"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/eitheenSP"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:text="@string/Subject" />
+        <TextView
+            android:layout_weight="2.1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp"
+            android:id="@+id/textview_studentSubject_searchDialog"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/eitheenSP"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:text="@string/Description" />
+        <TextView
+            android:layout_weight="2.1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp"
+            android:id="@+id/textview_studentDescription_searchDialog"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/eitheenSP"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:text="@string/Date" />
+        <TextView
+            android:layout_weight="2.1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp"
+            android:id="@+id/textview_studentDate_searchDialog"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

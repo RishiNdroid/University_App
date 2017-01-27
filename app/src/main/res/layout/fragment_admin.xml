@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context="com.example.rndroid.minorproject2_database.AdminFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:paddingTop="@dimen/fifteenDP"
+        android:gravity="center|start"
+        android:layout_weight=".4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP"
+        android:text="@string/WelcomeToDravidianUniversity"
+        android:textSize="@dimen/twenty_sp"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight=".2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP">
+        <ImageView
+            android:paddingRight="@dimen/fourtyDP"
+            android:layout_marginRight="@dimen/fortytwo_dp"
+            android:layout_weight="2"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:src="@drawable/edit_image"/>
+        <Button
+            android:layout_marginRight="@dimen/twntyfive_dp"
+            android:background="@drawable/btn_enter_phd_detail"
+            android:id="@+id/button_phd_adminFrag"
+            android:layout_weight="3"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight=".2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP">
+        <ImageView
+            android:paddingRight="@dimen/sixty_dp"
+            android:layout_marginRight="@dimen/twentynine_dp"
+            android:layout_weight="2"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comment_image"/>
+        <Button
+            android:id="@+id/button_mphil_adminFrag"
+            android:layout_marginRight="@dimen/five_dp"
+            android:background="@drawable/btn_enter_mphill_desertation"
+            android:layout_weight="3"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight=".2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP">
+        <Button
+            android:layout_marginLeft="@dimen/five_dp"
+            android:background="@drawable/btn_enter_student_project"
+            android:layout_weight="3"
+            android:id="@+id/button_studProject_adminFrag"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:paddingRight="@dimen/fourtyDP"
+            android:layout_weight="2"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sync_image"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight=".2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP">
+        <Button
+            android:id="@+id/button_facultyPublication_adminFrag"
+            android:layout_marginLeft="@dimen/five_dp"
+            android:background="@drawable/btn_enter_faculty_publish"
+            android:layout_weight="4"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:paddingTop="@dimen/five_dp"
+            android:paddingBottom="@dimen/five_dp"
+            android:paddingRight="@dimen/fifty_dp"
+            android:layout_weight="2"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_image"/>
+        </LinearLayout>
+
+    <Button
+        android:layout_weight=".2"
+        android:layout_marginTop="@dimen/fifty_dp"
+        android:layout_marginRight="@dimen/sixty_dp"
+        android:layout_marginLeft="@dimen/sixty_dp"
+        android:background="@drawable/btn_sync_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/zeroDP"
+        android:id="@+id/button_googlesync_adminFrag"/>
+    <LinearLayout
+        android:layout_weight=".3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP">
+        <Button
+            android:clickable="true"
+            android:background="@drawable/view_mage"
+            android:layout_weight="1"
+            android:id="@+id/button_view_adminFrag"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="match_parent" />
+        <Button
+            android:clickable="true"
+            android:background="@drawable/search_image"
+            android:layout_weight="1"
+            android:id="@+id/button_search_adminFrag"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/button_delete_adminFrag"
+            android:background="@drawable/delete_image"
+            android:layout_weight="1"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="match_parent" />
+</LinearLayout>
+</LinearLayout>

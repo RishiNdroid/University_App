@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context="com.example.rndroid.minorproject2_database.SearchStydentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:paddingRight="@dimen/twenty_dp"
+        android:paddingLeft="@dimen/zeroDP"
+        android:paddingStart="@dimen/zeroDP"
+        android:paddingEnd="@dimen/twenty_dp"
+        android:layout_weight="1.2"
+        android:gravity="center"
+        android:textSize="@dimen/twenty_dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP"
+        android:text="@string/search_by_name_or_mobile" />
+    <LinearLayout
+        android:paddingTop="@dimen/ten_dp"
+        android:layout_marginBottom="@dimen/twentyfife_dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight=".8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP">
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="@dimen/fourteen_dp"
+            android:layout_weight="1"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:text="@string/Name"/>
+        <EditText
+            android:id="@+id/edittext_name_searchfrag"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_shape_row"
+            android:layout_weight="7"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/button_goName_searchfrag"
+            android:background="@color/buttonColour"
+            android:text="@string/go"
+            android:layout_marginLeft="@dimen/five_dp"
+            android:layout_marginRight="@dimen/five_dp"
+            android:layout_weight="1"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/twentyfife_dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight=".8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP">
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="@dimen/fourteen_dp"
+            android:layout_weight="1"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:text="@string/cell"/>
+        <EditText
+            android:inputType="number"
+            android:clickable="true"
+            android:id="@+id/edittext_Cell_searchfrag"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_shape_row"
+            android:layout_weight="7"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/button_goCell_searchfrag"
+            android:background="@color/buttonColour"
+            android:text="@string/go"
+            android:layout_marginLeft="@dimen/five_dp"
+            android:layout_marginRight="@dimen/five_dp"
+            android:layout_weight="1"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:textSize="@dimen/sixteen_sp"
+        android:gravity="center"
+        android:text="@string/search_by"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP" />
+    <LinearLayout
+        android:gravity="center|top"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP">
+
+        <ImageView
+            android:layout_marginRight="@dimen/two_dp"
+            android:layout_marginEnd="@dimen/one_dp"
+            android:background="@drawable/telgu_image"
+            android:layout_width="@dimen/eighty_eight_dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginRight="@dimen/two_dp"
+            android:layout_marginEnd="@dimen/one_dp"
+            android:background="@drawable/kanad_image"
+            android:layout_width="@dimen/eighty_eight_dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:background="@drawable/hindi_image"
+            android:layout_width="@dimen/eighty_eight_dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

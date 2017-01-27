@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context="com.example.rndroid.minorproject2_database.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_weight=".3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP" />
+    <LinearLayout
+        android:layout_marginRight="@dimen/fourDP"
+        android:layout_marginEnd="@dimen/zeroDP"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP">
+        <TextView
+            android:gravity="center"
+            android:paddingTop="@dimen/fifteenDP"
+            android:paddingRight="@dimen/thirtyDP"
+            android:paddingLeft="@dimen/zeroDP"
+            android:paddingStart="@dimen/zeroDP"
+            android:paddingEnd="@dimen/thirtyDP"
+            android:layout_weight=".9"
+            android:textSize="@dimen/twentytwoSP"
+            android:textColor="@color/black"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="match_parent"
+            android:text="@string/user_name" />
+        <EditText
+            android:padding="@dimen/ten_dp"
+            android:textColor="@color/black"
+            android:id="@+id/edittext_username_loginfrag"
+            android:layout_gravity="bottom"
+            android:background="@drawable/edittext_shape_row"
+            android:textSize="@dimen/twentyfiveSP"
+            android:layout_weight="1"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginRight="@dimen/fourDP"
+        android:layout_marginEnd="@dimen/one_dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP">
+        <TextView
+            android:gravity="center"
+            android:paddingRight="@dimen/fourtyDP"
+            android:paddingLeft="@dimen/zeroDP"
+            android:paddingStart="@dimen/zeroDP"
+            android:paddingEnd="@dimen/fourtyDP"
+            android:layout_weight=".9"
+            android:textSize="@dimen/twentytwoSP"
+            android:textColor="@color/black"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="match_parent"
+            android:text="@string/password" />
+        <EditText
+            android:padding="@dimen/ten_dp"
+            android:textColor="@color/black"
+            android:id="@+id/edittext_password_loginfrag"
+            android:textSize="@dimen/twenty_five_sp"
+            android:background="@drawable/edittext_shape_row"
+            android:layout_weight="1"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginRight="@dimen/fourDP"
+    android:layout_marginEnd="@dimen/zeroDP"
+    android:layout_weight="0.4"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/zeroDP"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_weight=".9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button_login_loginfrag"
+        android:background="#a1a1a1"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:layout_width="@dimen/zeroDP"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <TextView
+        android:layout_weight="0.4"
+        android:textSize="@dimen/twenty_two_sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP"
+        android:text="@string/forgot_password"/>
+    <LinearLayout
+        android:layout_marginRight="@dimen/fourDP"
+        android:layout_marginEnd="@dimen/zeroDP"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP">
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="top"
+            android:layout_weight=".9"
+            android:textSize="@dimen/twentytwoSP"
+            android:textColor="@color/black"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content"
+            android:text="@string/registered_email" />
+        <EditText
+            android:enabled="false"
+            android:padding="@dimen/ten_dp"
+            android:id="@+id/edittext_registeredEmail_loginfrag"
+            android:background="@drawable/edittext_shape_row"
+            android:layout_weight="1"
+            android:layout_width="@dimen/zeroDP"
+            android:textSize="@dimen/twenty_five_sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="@dimen/fourDP"
+        android:layout_marginEnd="@dimen/zeroDP"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP"
+        android:orientation="horizontal">
+        <TextView
+            android:text=""
+            android:layout_weight=".9"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_req_pass_loginfrag"
+            android:textAllCaps="false"
+            android:background="@color/button"
+            android:layout_weight="1"
+            android:textSize="@dimen/twenty_sp"
+            android:layout_gravity="end"
+            android:text="@string/req_password"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

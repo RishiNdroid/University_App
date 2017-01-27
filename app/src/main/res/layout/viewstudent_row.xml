@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp">
+<TextView
+    android:textSize="@dimen/twenty_sp"
+    android:gravity="start"
+    android:text="@string/_1"
+    android:id="@+id/textviewStudentNo_viewStudent_row"
+    android:layout_weight="1"
+    android:layout_width="@dimen/zeroDP"
+    android:layout_height="match_parent" />
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="5"
+    android:layout_width="@dimen/zeroDP"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/twenty_two_sp"
+        android:gravity="start"
+        android:text="@string/rishi_gmail_com"
+        android:id="@+id/textviewStudentEmail_viewStudent_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="@dimen/twenty_two_sp"
+        android:gravity="start"
+        android:text="@string/_dummy_mobile_number"
+        android:id="@+id/textviewStudentMobile_viewStudent_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/twenty_two_sp"
+        android:gravity="start"
+        android:text="@string/Name"
+        android:id="@+id/textviewStudentName_viewStudent_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/twenty_two_sp"
+        android:gravity="start"
+        android:text="@string/subject"
+        android:id="@+id/textviewStudentSubject_viewStudent_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <CheckBox
+        android:gravity="start"
+        android:layout_weight=".5"
+        android:layout_width="@dimen/zeroDP"
+        android:layout_height="wrap_content" />
+</LinearLayout>

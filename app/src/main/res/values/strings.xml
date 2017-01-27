@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MinorProject2_Database</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TechPalle">TechPalle</string>
+    <string name="WelcomeToDravidianUniversity">Welcome To Dravidian University</string>
+    <string name="No">No</string>
+    <string name="Name">Name</string>
+    <string name="Mobile">Mobile</string>
+    <string name="EmailID">Email ID</string>
+    <string name="Subject">Subject</string>
+    <string name="Description">Detail</string>
+    <string name="Date">Date</string>
+    <string name="PickDate">Pick Date</string>
+    <string name="Save">Save</string>
+    <string name="Back">Back</string>
+    <string name="to">to</string>
+    <string name="subject">Subject</string>
+    <string name="compose">Compose</string>
+    <string name="send">Send</string>
+    <string name="close">Close</string>
+    <string name="user_name">User Name</string>
+    <string name="student_no">Student No</string>
+    <string name="welcome_to_dravidian_university">Welcome To Dravidian University</string>
+    <string name="register">Register</string>
+    <string name="new_user">New User?...</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot PassWord?...</string>
+    <string name="registered_email">Registered Email</string>
+    <string name="req_password">Req PassWord</string>
+    <string name="e_no">E.No</string>
+    <string name="e_name">E.Name</string>
+    <string name="p_word">P.word</string>
+    <string name="confirm">Confirm</string>
+    <string name="pw_hint">PW Hint</string>
+    <string name="cell">Cell</string>
+    <string name="go">Go</string>
+    <string name="search_by_name_or_mobile">Search By Name [or] Mobile</string>
+    <string name="search_by">Search By:</string>
+    <string name="_1">1</string>
+    <string name="rishi_gmail_com">rishi@gmail.com</string>
+    <string name="_dummy_mobile_number">000000000</string>
+</resources>
